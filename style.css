@@ -87,6 +87,8 @@ nav ul {
     font-size: 1.25rem;
     column-gap: 8%;
     justify-content: center;
+    /* I did not know you could remove bullet points from a list like this. I learned it from mozilla - 
+    https://developer.mozilla.org/en-US/docs/Web/CSS/list-style */
     list-style: none;
     padding-top: 50px;
     width: 100%;
