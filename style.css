@@ -1,5 +1,7 @@
 
 html {
+    /* I learned how to make scrolling smooth instead of instant from https://www.w3schools.com/cssref/pr_scroll-behavior.php
+    and I learned how to hide the horizontal scrolling of a website from https://www.w3schools.com/cssref/css3_pr_overflow-x.php */
     scroll-behavior: smooth;
     overflow-x:hidden;
 }
@@ -9,6 +11,8 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    /* I learned this from mozilla https://developer.mozilla.org/en-US/docs/Web/CSS/background-size and now i know how to make sure 
+    the image in the container takes up the entire space and has the same aspect ratio as the container */
     background-size: cover;
 }
 
@@ -35,11 +39,14 @@ h1 {
     color: rgb(226, 106, 216);
     font-family:"Permanent Marker", cursive;
     padding-top: 120px;
+    /* I didn't learn this from anywhere, just experimented with background-image and found out you can add gifs and integrated it into my project */
     background-image: url("gojoDancing.gif");
     background-position: center;
     background-size: cover;
+    /* found this out from mozilla as well (same link as where I learned overflow-x: hidden; from */
     overflow: hidden;
     margin: 0;
+    /* learned this from https://www.w3schools.com/cssref/css_units.php and learned about different units, vh worked pretty good with my project */
     height: 100vh;
 }
 
@@ -194,14 +201,6 @@ ol li {
     align-items: center;
     width: 100%;
     text-align: center;
-}
-
-.profile-twitter {
-
-}
-
-aside div :last-of-type a {
-    
 }
 
 .profile .container > a {
