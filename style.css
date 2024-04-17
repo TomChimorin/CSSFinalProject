@@ -1,4 +1,4 @@
-
+/*default css for the whole html */
 html {
     /* I learned how to make scrolling smooth instead of instant from https://www.w3schools.com/cssref/pr_scroll-behavior.php
     and I learned how to hide the horizontal scrolling of a website from https://www.w3schools.com/cssref/css3_pr_overflow-x.php */
@@ -6,6 +6,7 @@ html {
     overflow-x:hidden;
 }
 
+/* css for elements in the header tag */
 header {
     display: flex;
     flex-direction: column;
@@ -16,20 +17,24 @@ header {
     background-size: cover;
 }
 
+/* css for the title of the webpage */
 header h2 {
     margin-top: 100px;
 }
 
+/* removing skip to content link */
 .skip-link {
     display: none;
 }
 
+/*styling for the body element for background color, width and margins */
 body {
     background-color: rgba(150, 138, 138, 0.373);
     max-width: 75%;
     margin: auto;
 }
 
+/* styling for the whole h1 tag: background, positioning and sizing */
 h1 {
     text-align: center;
     justify-content: center;
@@ -50,6 +55,7 @@ h1 {
     height: 100vh;
 }
 
+/*styling for the title of the webpage: font, size, color and positioning*/
 h2 {
     font-size: 3.0em;
     width: 50%;
@@ -59,17 +65,19 @@ h2 {
     font-family: "Permanent Marker", cursive;
 }
 
+/*styling for the header paragraphs*/
 header p{
     text-align: center;
     color: rgb(226, 106, 216);
     font-size: 1.2em;
 }
 
-
+/* styling to resize the large star image */
 svg {
     width: 17px;
 }
 
+/* styling the link by size, color, positioning and turning it into a button */
 a.link-github {
     font-size: 1.125em;
     text-align: center;
@@ -86,7 +94,7 @@ a.link-github {
 }
 
 
-
+/* styling the whole list */
 nav ul {
     display: flex;
     padding: 0.5rem;
@@ -101,6 +109,7 @@ nav ul {
     width: 100%;
 }
 
+/* list styling in general */
 ul {
     display: flex;
     flex-wrap: wrap;
@@ -109,16 +118,20 @@ ul {
     row-gap: 18px;
 }
 
+/*correcting some sizing for a list element */
 #about :last-of-type ul {
     padding: 15px;
     ;
 }
 
+/* styling for all anchor tags */
 a {
     text-decoration: none;
     color: rgb(200, 76, 76);
 }
 
+
+/* styling each individual list item with an ID of about in the unordered list */
 #about ul li {
     border: 1px solid black;
     padding: 10px;
@@ -132,10 +145,12 @@ a {
     font-size: 1.3em;
 }
 
+/* styling the paragraphs within main */
 main p {
     font-size: 1.1em;
 }
 
+/* styling for paragraphs within section */
 section p{
     font-size: 1.3em;
     text-align: center;
@@ -146,11 +161,13 @@ section p{
     
 }
 
+/* styling for blockquote elements */
 blockquote {
     border: 1px solid black;
     background-color: pink;
 }
 
+/* styling for anchor tag of class link-guidelines */
 .link-guidelines {
     border: 1px solid black;
     background-color: rgb(214, 146, 200);
@@ -166,15 +183,18 @@ blockquote {
     padding: 10px;
 }
 
+/* styling for all h3 tags */
 h3 {
     font-size: 1.3em;
 
 }
 
+/* styling for list items within an ordered list */
 ol li {
     font-size: 1.3em;
 }
 
+/* styling for anchor tags with ID of files */
 #files a {
     border: 1px solid black;
     background-color: rgb(214, 146, 200);
@@ -185,14 +205,14 @@ ol li {
     
 }
 
-
-
+/* styling for profile classes */
 .profile {
     font-size: 1.3em;
     flex-wrap: wrap;
     text-align: center;
 }
 
+/* styling unordered lists within the profile classes */
 .profile ul {
     padding: 0;
     display: flex;
@@ -203,6 +223,7 @@ ol li {
     text-align: center;
 }
 
+/* styling anchor tags which are direct children of the container class which is a descendant of profile class */
 .profile .container > a {
     border: 1px solid black;
     font-size: 0.85em;
@@ -218,11 +239,9 @@ ol li {
     
 }
 
+/* styling for features class */
 .features {
     font-size: 1.3em;
-}
-
-.features {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -230,6 +249,7 @@ ol li {
     align-items: center;
 }
 
+/* styling for classes of link-allstyles */
 .link-allstyles {
     font-size: 1.3em;
     text-align: center;
@@ -248,6 +268,7 @@ ol li {
     border: 1px solid black;
 }
 
+/* styling for twitter link */
 .link-twittercontact {
     font-size: 1.3em;
     font-size: 1.125em;
@@ -264,6 +285,7 @@ ol li {
     margin-top: 50px;
 }
 
+/* styling for class of link-rss */
 .link-rss {
     font-size: 1.3em;
     font-size: 1.125em;
@@ -280,7 +302,7 @@ ol li {
     margin-top: 50px;
 }
 
-
+/* styling for link-support class */
 .link-support {
     font-size: 1.3em;
     font-size: 1.125em;
@@ -297,54 +319,65 @@ ol li {
     margin-top: 50px;
 }
 
+/* color style for anchor tags for hovering over */
 a:hover {
     color: red;
 }
 
+/* styling a class of page-footer */
 .page-footer {
     padding-inline-start: 40px;
 }
 
+/* styling paragraphs in the page-footer class */
 .page-footer p {
     font-size: 1.3em;
     padding-top: 30px;
 }
 
+/* styling the first paragraph in the page-footer class */
 .page-footer :first-of-type p {
     display: block;
     text-align: center;
 }
 
+/* styling all unordered lists */
 ul {
     justify-content: space-around;
 }
 
+/* styling anchor tags in an element of ID styles
 #styles a {
     align-items: center;
 }
 
+/* styling the css download link */
 .link-downloadcss {
     margin-left: 30%;
 }
 
+/* styling all h3 elements in the element of ID files */
 #files h3 {
     text-align: center;
     padding-top: 30px;
 }
 
+/* styling all elements with an ID of profile-title
 #profile-title {
     padding-top: 30px;
 }
 
+/* styling all h2 tags in an element with ID styles */
 #styles h2 {
     padding-top: 30px;
 }
 
+/* styling all h3 tags in an element with ID guidelines */
 #guidelines h3 {
     text-align: center;
 }
 
-
+/* media queries for smaller sized screens */
 @media only screen and (max-width: 600px) {
     body {
         background-color: rgba(150, 138, 138, 0.373);
